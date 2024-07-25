@@ -1,0 +1,139 @@
+@charset "utf-8";
+.header{
+    width: 100%;
+    background-color: beige;
+    box-shadow: 0 5px 5px -5px #686868;
+}
+
+
+
+.header .inner{
+    width: 100%;
+    max-width: 1300px;
+    height: 100%;
+    margin: auto;
+    background-color: lightgray;
+    /* display: flex; */
+}
+
+.header-top{
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-top *{
+    margin: 7px;
+}
+
+.header-logo{
+    /* width: 20%; */
+    width: 250px;
+    /* max-width: 210px; */
+    /* height: auto; */
+    /* background-color: brown; */
+}
+.header-logo a{
+    width: 250px;
+    height: 100%;
+}
+
+.header-logo img{
+    width: 250px;
+    /* height: auto; */
+    margin: auto;
+    mix-blend-mode: multiply;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+.search-text{
+    width: 85%;
+    border: 0;
+    outline: none;
+    background-color: bisque;
+}
+
+.search-bt{
+    width: 20px;
+    height: 20px;
+    background: url("/images/btn-search.png") no-repeat center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+
+.changePageKR, .changePageJP{
+    width: 100px;
+    /* height: 45px; */
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #fff;
+    cursor: pointer;
+    
+
+}
+.changePageKR{
+    display: none;
+}
+
+.header-icons{
+    /* width: 310px; */
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 10px; */
+    background-color: cadetblue;
+}
+.header-icons > a{
+    margin: 8px;
+}
+.header-icons > a img{
+    width: 30px;
+    height: auto;
+}
+
+.header-bottom{
+    padding: 10px;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.header-navi{
+    width: calc(1300px - 620px);
+    height: 30px;
+    background-color: antiquewhite;
+    /* background-color: blueviolet; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.header-navi-list > a{
+    padding: 6px;
+}
+
+.cash-area{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
