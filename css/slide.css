@@ -1,0 +1,54 @@
+/* 슬라이드 영역 */
+
+.banner {
+  width: 1300px;
+  margin: auto;
+}
+
+.banner .inner {
+  max-width: 1300px;
+}
+.sw-banner {
+  width: 100%;
+  margin: auto;
+}
+
+.banner-link {
+  display: block;
+  width: 100%;
+}
+
+.swiper-slide a img {
+  width: 100%;
+}
+
+.promotion-slide {
+  position: relative;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  display: fixed;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 99999;
+}
+
+.swiper-pagination-bullet {
+  width: 2%;
+  height: 6px;
+  background-color: rgb(255, 112, 17);
+  border-radius: 0;
+  z-index: 999999;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 5px;
+}
+.sw-banner .jpActive {
+  display: none;
+}
