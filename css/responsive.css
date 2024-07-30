@@ -1,0 +1,24 @@
+@charset "utf-8";
+@media screen and (max-width: 1300px) {
+
+
+    .famousCart-list {
+        width: 307vw;
+        height: 50vw;
+        background-color: antiquewhite;
+      }
+      
+
+    .famousCart-list .image-area {
+        width: 100%;
+        height: 44.6vw;
+        overflow: hidden;
+      }
+      
+}
+
+@media screen and (max-width: 1100px) {
+    /* html{
+        font-size: 15px;
+    } */
+}

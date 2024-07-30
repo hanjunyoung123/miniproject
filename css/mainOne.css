@@ -1,0 +1,98 @@
+/* 공통영역 - 내부항목 */
+
+.famousCart-menu {
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    gap: 15px;
+}
+.famousCart-list {
+    /* width: calc(100% / 3); */
+    width: 423px;
+    /* width: 307vw; */
+
+    height: 650px;
+    height: auto;
+    /* height: 50vw; */
+    background-color: antiquewhite;
+}
+.famousCart-list a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+.famousCart-list .image-area {
+    width: 100%;
+    height: 580px;
+    /* height: 44.6vw; */
+    overflow: hidden;
+  }
+  
+  .famousCart-list a img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .famousCart-desc{
+      display: block;
+      width: 100%;
+      height: 7.3vw;
+  }
+  
+  .famousCart-desc p:nth-child(1){
+      font-size: 1.5rem;
+      font-weight: bold;
+  }
+  .famousCart-desc p:nth-child(2){
+      font-size: 1.1rem;
+  }
+  .famousCart-desc p:nth-child(3){
+      font-size: 1.1rem;
+  }
+  /*인기만화 영역 -일본 */
+  .best-Wrap {
+    width: 100%;
+  }
+  .best-Wrap .inner {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+  }
+.Popularity-Wrap {
+    width: 100%;
+  }
+  
+  .Popularity-Wrap .inner {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+  }
+  
+  .jpActive {
+    display: none;
+  }
+  
+  /* 전권매입 영역 - 일본 */
+  .allBuy-Wrap{
+      width: 100%;
+  }
+  
+  .allBuy-Wrap .inner{
+      width: 100%;
+      max-width: 1300px;
+      margin: auto;
+  }
+  
+  /* 전권매입 영역 - 일본 */
+  .mz_old-Wrap{
+      width: 100%;
+  }
+  
+  .mz_old-Wrap .inner{
+      width: 100%;
+      max-width: 1300px;
+      margin: auto;
+  }
+
+
